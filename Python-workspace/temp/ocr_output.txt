@@ -1,0 +1,36 @@
+General Receipt
+Bién lai
+Company name/
+Tén cong ty:
+Address (Head Office)/
+Dia chi (Vin phong
+Chinh):
+Tax ID/ Ma thué:
+Receipt number/
+Ma bién lai
+Date/ Ngay
+Client name/
+Ten khach hang:
+Address/ Dia chi:
+‘Tax ID/ Ma thué:
+N°/ ami PRICE/UNIT/ || QUANTITY/ TOTAL (VND)/
+DESCRIPTION/ MO TA a <
+sir DON GIA SO LUONG TONG (VND)
+0.00 ° 0.00
+0.00 ° 0.00
+TOTAL/ TONG | VND 0.00
+VAT 10% | VND 0.00
+GRAND TOTAL
+7 tone | YNP 0.00
+Information about the invoice/
+Théng tin vé bién lai
+Invoice number/
+Ma bién lai:
+Date/ Ngay:
+Information about the payment/
+Théng tin vé bién lai
+Payment date/
+Ngay thanh toan:
+Bank transfer/
+Chuyén khoan ngan
+hang:

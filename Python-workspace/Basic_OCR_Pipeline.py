@@ -9,8 +9,7 @@ def ocr_with_paddle(image_path):
     except Exception as e:
         raise ImportError("paddleocr not available: " + str(e))
 
-    # Some paddleocr versions do not accept `cls` or `use_textline_orientation` kwargs.
-    # Use the minimal constructor and call `ocr()`; calling `predict()` is a fallback.
+   # Setting up OCR engine
     try:
         ocr_engine = PaddleOCR(lang='vi')
     except Exception:
@@ -46,7 +45,7 @@ def ocr_with_paddle(image_path):
 
     return texts
 
-
+# Setting up Pytesseract for backup
 def ocr_with_pytesseract(image_path):
     try:
         import pytesseract
@@ -106,3 +105,4 @@ def run(image_path=None):
 if __name__ == "__main__":
     arg = sys.argv[1] if len(sys.argv) > 1 else None
     raise SystemExit(run(arg))
+
